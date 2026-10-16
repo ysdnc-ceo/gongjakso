@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>고덕 지식공작소 | 평택 고덕신도시 내 지식산업센터 시행사 직영 상담</title>
+<meta name="description" content="평택 고덕신도시 내 준공 지식산업센터 고덕 지식공작소. 삼성전자 평택캠퍼스 직선거리 1.2km, 시행사 직영 상담. I-TOWER 302실, W-TOWER 315실. 드라이브인 작업장과 섹션오피스, 층고 최대 5.6m, 평택고덕IC 인접. 업종·면적에 맞는 호실을 상담으로 안내합니다.">
+<meta name="keywords" content="고덕 지식공작소, 지식공작소 I-TOWER, 지식공작소 W-TOWER, 고덕 지식산업센터, 평택 지식산업센터, 평택 드라이브인, 고덕 섹션오피스, 평택 사옥, 해창리 지식산업센터">
+<meta property="og:type" content="website">
+<meta property="og:title" content="고덕 지식공작소 I-TOWER · W-TOWER">
+<meta property="og:description" content="평택 고덕신도시 내 지식산업센터. 삼성전자 평택캠퍼스 직선거리 1.2km, 시행사 직영 상담.">
+<meta property="og:image" content="images/aerial.jpg">
+<meta name="theme-color" content="#14304A">
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<style>
+:root{
+  --ink:#14304A;      /* 브로슈어 네이비 */
+  --steel:#3D6A8A;    /* 섹션오피스 */
+  --teal:#1C9C86;     /* 브랜드 그린-틸 */
+  --amber:#F2B233;    /* 드라이브인·하역 */
+  --concrete:#EDF0EF;
+  --line:#D5DCDB;
+  --text:#1E2A33;
+  --muted:#5B6873;
+  --white:#fff;
+  --wrap:1180px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+body{margin:0;font-family:"Pretendard Variable",Pretendard,-apple-system,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;color:var(--text);background:var(--white);line-height:1.65;font-size:16px;word-break:keep-all;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--amber);outline-offset:2px}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 20px}
+.num{font-variant-numeric:tabular-nums}
+
+/* 헤더 */
+.hd{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.96);backdrop-filter:blur(6px);border-bottom:1px solid var(--line)}
+.hd .wrap{display:flex;align-items:center;gap:28px;height:64px}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:800;color:var(--ink);font-size:18px;letter-spacing:-.02em;flex-shrink:0}
+.logo-mark{width:30px;height:30px;border-radius:6px;background:var(--ink);display:grid;place-items:center}
+.logo small{display:block;font-size:11px;font-weight:600;color:var(--muted);letter-spacing:0;margin-top:-3px}
+.nav{display:flex;gap:22px;margin-left:auto}
+.nav a{text-decoration:none;font-size:15px;font-weight:600;color:var(--text)}
+.nav a:hover{color:var(--teal)}
+.hd-tel{flex-shrink:0;text-decoration:none;background:var(--ink);color:#fff;font-weight:700;padding:9px 16px;border-radius:6px;font-size:15px}
+@media (max-width:960px){.nav{display:none}.hd-tel{margin-left:auto}}
+
+/* 히어로 */
+.hero{position:relative;min-height:min(86vh,760px);display:flex;align-items:flex-end;color:#fff;background:var(--ink);overflow:hidden}
+.hero::after{content:"";position:absolute;top:0;right:0;bottom:0;width:55%;background:url(images/hero.jpg) left center/cover no-repeat}
+.hero::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,var(--ink) 45%,rgba(20,48,74,.5) 50%,rgba(20,48,74,0) 58%),linear-gradient(0deg,rgba(20,48,74,.9) 0%,rgba(20,48,74,0) 34%)}
+.hero .wrap{z-index:2}
+.hero .wrap{position:relative;width:100%;padding-top:80px;padding-bottom:44px}
+.hero-status{display:inline-block;font-size:14px;font-weight:700;background:var(--teal);padding:5px 12px;border-radius:4px;margin-bottom:18px}
+.hero h1{font-size:clamp(34px,5.6vw,64px);line-height:1.18;letter-spacing:-.035em;font-weight:800;margin:0 0 18px;max-width:13em}
+.hero p.lead{font-size:clamp(16px,1.6vw,19px);max-width:27em;margin:0 0 30px;color:#DCE6EC}
+.btns{display:flex;flex-wrap:wrap;gap:10px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;font-weight:700;font-size:16px;padding:14px 22px;border-radius:6px;border:0;cursor:pointer;font-family:inherit}
+.btn-amber{background:var(--amber);color:#1B1B1B}
+.btn-amber:hover{background:#F6C45A}
+.btn-line{border:1.5px solid rgba(255,255,255,.7);color:#fff}
+.btn-line:hover{background:rgba(255,255,255,.1)}
+.facts{display:grid;grid-template-columns:repeat(4,1fr);margin-top:44px;border-top:1px solid rgba(255,255,255,.28)}
+.facts div{padding:18px 18px 0 0}
+.facts b{display:block;font-size:clamp(22px,2.6vw,30px);font-weight:800;letter-spacing:-.02em}
+.facts span{font-size:14px;color:#C5D3DC}
+@media (max-width:720px){.facts{grid-template-columns:1fr 1fr}.hero{min-height:auto}.hero::after{width:100%;height:300px;bottom:auto}.hero::before{background:linear-gradient(180deg,rgba(20,48,74,0) 0,rgba(20,48,74,.2) 160px,var(--ink) 300px)}.hero .wrap{padding-top:220px}}
+
+/* 공통 섹션 */
+section{padding:96px 0}
+.sec-head{max-width:720px;margin-bottom:44px}
+.sec-head h2{font-size:clamp(26px,3.4vw,40px);line-height:1.28;letter-spacing:-.03em;margin:0 0 14px;color:var(--ink);font-weight:800}
+.sec-head p{margin:0;color:var(--muted);font-size:17px}
+.bg-c{background:var(--concrete)}
+.bg-ink{background:var(--ink);color:#fff}
+.bg-ink .sec-head h2{color:#fff}.bg-ink .sec-head p{color:#B9C9D4}
+@media (max-width:720px){section{padding:68px 0}}
+
+/* 두 동 비교 */
+.towers{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+.tower{background:#fff;border:1px solid var(--line);border-radius:10px;overflow:hidden;display:flex;flex-direction:column}
+.tower figure{margin:0;aspect-ratio:4/3;overflow:hidden;background:#cfd8dc}
+.tower figure img{width:100%;height:100%;object-fit:cover}
+.tower-body{padding:26px 26px 28px}
+.tower h3{margin:0 0 4px;font-size:24px;letter-spacing:-.02em;color:var(--ink)}
+.tower .sub{margin:0 0 18px;color:var(--muted);font-size:15px}
+.spec{width:100%;border-collapse:collapse;font-size:15px}
+.spec th{text-align:left;font-weight:600;color:var(--muted);padding:9px 0;width:34%;border-top:1px solid var(--line);vertical-align:top}
+.spec td{padding:9px 0;border-top:1px solid var(--line)}
+@media (max-width:820px){.towers{grid-template-columns:1fr}}
+
+/* 층별 구성 (핵심 요소) */
+.stack-area{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:40px;align-items:start}
+.stacks{display:grid;grid-template-columns:1fr 1fr;gap:26px}
+.stack h3{margin:0 0 12px;font-size:18px;color:#fff;display:flex;justify-content:space-between;align-items:baseline}
+.stack h3 small{font-size:13px;color:#9FB4C3;font-weight:500}
+.floors{display:flex;flex-direction:column;gap:4px;position:relative}
+.fl{display:grid;grid-template-columns:44px 1fr;align-items:stretch;gap:8px;background:none;border:0;padding:0;cursor:pointer;font-family:inherit;text-align:left;color:#fff}
+.fl .lv{font-size:13px;font-weight:700;color:#9FB4C3;display:flex;align-items:center;justify-content:flex-end;font-variant-numeric:tabular-nums}
+.fl .bar{height:34px;border-radius:4px;display:flex;align-items:center;padding:0 12px;font-size:14px;font-weight:600;position:relative;transition:transform .15s,box-shadow .15s}
+.fl:hover .bar{transform:translateX(3px)}
+.fl[aria-pressed="true"] .bar{box-shadow:0 0 0 3px #fff inset}
+.fl[aria-pressed="true"] .lv{color:#fff}
+.t-office .bar{background:var(--steel)}
+.t-drive .bar{background:var(--amber);color:#1B1B1B;background-image:repeating-linear-gradient(-45deg,rgba(0,0,0,.07) 0 8px,transparent 8px 16px)}
+.t-retail .bar{background:var(--teal)}
+.t-park .bar{background:#5C6E7B;color:#E3EAEE}
+.legend{display:flex;flex-wrap:wrap;gap:16px;margin-top:22px;font-size:14px;color:#C5D3DC}
+.legend i{display:inline-block;width:14px;height:14px;border-radius:3px;margin-right:6px;vertical-align:-2px}
+.panel{background:#fff;color:var(--text);border-radius:10px;padding:28px;position:sticky;top:88px}
+.panel .where{font-size:14px;font-weight:700;color:var(--teal);margin:0 0 6px}
+.panel h3{margin:0 0 12px;font-size:24px;color:var(--ink);letter-spacing:-.02em;line-height:1.35}
+.panel p{margin:0 0 14px;color:var(--muted)}
+.panel dl{display:grid;grid-template-columns:auto 1fr;gap:8px 18px;margin:0 0 20px;font-size:15px}
+.panel dt{color:var(--muted)}
+.panel dd{margin:0;font-weight:600}
+.panel .btn{width:100%}
+.panel .note{font-size:13px;color:var(--muted);margin:12px 0 0}
+@media (max-width:960px){.stack-area{grid-template-columns:1fr}.panel{position:static}}
+@media (max-width:520px){.stacks{grid-template-columns:1fr}}
+
+/* 입지 */
+.loc{display:grid;grid-template-columns:1.25fr 1fr;gap:40px;align-items:start}
+.loc figure{margin:0;border-radius:10px;overflow:hidden;border:1px solid var(--line)}
+.loc figcaption{font-size:13px;color:var(--muted);padding:10px 14px;background:#fff}
+.points{list-style:none;margin:0;padding:0}
+.points li{padding:20px 0;border-top:1px solid var(--line)}
+.points li:last-child{border-bottom:1px solid var(--line)}
+.points b{display:block;font-size:19px;color:var(--ink);margin-bottom:4px;letter-spacing:-.01em}
+.points span{color:var(--muted);font-size:15.5px}
+@media (max-width:900px){.loc{grid-template-columns:1fr}}
+
+/* 특화설계 */
+.feat{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.6fr);gap:32px;align-items:center;padding:30px 0;border-top:1px solid var(--line)}
+.feat:last-child{border-bottom:1px solid var(--line)}
+.feat h3{margin:0 0 8px;font-size:22px;color:var(--ink);letter-spacing:-.02em}
+.feat p{margin:0;color:var(--muted)}
+.feat img{border-radius:8px;width:100%}
+@media (max-width:820px){.feat{grid-template-columns:1fr;gap:16px}}
+
+/* 세제·금융 */
+.tax{display:grid;grid-template-columns:repeat(2,1fr);gap:0;border-top:2px solid var(--ink)}
+.tax div{padding:22px 24px 22px 0;border-bottom:1px solid var(--line)}
+.tax div:nth-child(odd){padding-right:32px}
+.tax b{display:block;font-size:20px;color:var(--ink);margin-bottom:4px}
+.tax span{color:var(--muted);font-size:15px}
+.fine{font-size:13.5px;color:var(--muted);margin-top:18px}
+@media (max-width:720px){.tax{grid-template-columns:1fr}}
+
+/* 가격 안내 */
+.price{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+.price h2{font-size:clamp(26px,3.2vw,38px);line-height:1.3;letter-spacing:-.03em;margin:0 0 16px}
+.price p{color:#C9D6DF;margin:0 0 14px}
+.checks{list-style:none;margin:0;padding:0;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.18);border-radius:10px}
+.checks li{padding:18px 22px;border-bottom:1px solid rgba(255,255,255,.12);display:flex;gap:14px}
+.checks li:last-child{border-bottom:0}
+.checks li::before{content:"";flex-shrink:0;width:10px;height:10px;margin-top:8px;border-radius:2px;background:var(--amber)}
+@media (max-width:820px){.price{grid-template-columns:1fr}}
+
+/* 입주 절차 */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;counter-reset:s;list-style:none;padding:0;margin:0}
+.steps li{counter-increment:s;border-top:3px solid var(--teal);padding-top:16px}
+.steps li::before{content:counter(s);display:block;font-size:30px;font-weight:800;color:var(--teal);line-height:1;margin-bottom:10px}
+.steps b{display:block;font-size:18px;color:var(--ink);margin-bottom:4px}
+.steps span{color:var(--muted);font-size:15px}
+@media (max-width:820px){.steps{grid-template-columns:1fr 1fr}}
+
+/* 상담 폼 */
+.form-area{display:grid;grid-template-columns:.9fr 1.1fr;gap:48px;align-items:start}
+.office{margin-top:26px;padding-top:22px;border-top:1px solid var(--line);font-size:15.5px}
+.office b{display:block;color:var(--ink);font-size:17px;margin-bottom:2px}
+.office a.tel{display:inline-block;margin-top:14px;font-size:30px;font-weight:800;color:var(--ink);text-decoration:none;letter-spacing:-.02em}
+form{background:#fff;border:1px solid var(--line);border-radius:10px;padding:30px}
+.fg{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.full{grid-column:1/-1}
+label{display:block;font-size:14px;font-weight:700;margin-bottom:6px}
+.inp{width:100%;font:inherit;font-size:16px;padding:12px 14px;border:1px solid #BCC6CA;border-radius:6px;background:#fff;color:var(--text)}
+.inp:focus{border-color:var(--ink);outline:2px solid rgba(20,48,74,.15)}
+.agree{font-size:14px}
+.agree .chk{display:flex;gap:8px;align-items:center;font-weight:700}
+.agree .chk input{width:18px;height:18px}
+.agree details{margin-top:8px;color:var(--muted);font-size:13px;background:var(--concrete);border-radius:6px;padding:10px 12px}
+.agree summary{cursor:pointer}
+#submitBtn{width:100%;font-size:17px;padding:16px}
+#submitBtn:disabled{opacity:.6;cursor:wait}
+#resultMsg{margin-top:12px;font-weight:700;text-align:center;min-height:1.4em}
+@media (max-width:860px){.form-area{grid-template-columns:1fr}}
+@media (max-width:520px){.fg{grid-template-columns:1fr}form{padding:22px}}
+
+/* 푸터 */
+.ft{background:#0F2234;color:#9FB0BD;font-size:13.5px;padding:44px 0 110px}
+.ft b{color:#fff}
+.ft p{margin:0 0 6px}
+.ft .disc{margin-top:18px;font-size:12.5px;color:#7F92A0}
+
+/* 플로팅 */
+.float{position:fixed;right:20px;bottom:24px;z-index:60;display:flex;flex-direction:column;gap:8px}
+.float a{display:flex;align-items:center;justify-content:center;width:84px;height:84px;border-radius:10px;text-decoration:none;font-weight:700;font-size:13.5px;text-align:center;line-height:1.3;box-shadow:0 6px 18px rgba(15,34,52,.25)}
+.float .f-tel{background:var(--ink);color:#fff}
+.float .f-form{background:var(--amber);color:#1B1B1B}
+.mbar{display:none}
+@media (max-width:760px){
+  .float{display:none}
+  .mbar{display:grid;grid-template-columns:1fr 1fr;position:fixed;left:0;right:0;bottom:0;z-index:60;box-shadow:0 -4px 14px rgba(15,34,52,.18)}
+  .mbar a{display:flex;align-items:center;justify-content:center;height:58px;font-weight:800;font-size:16px;text-decoration:none}
+  .mbar .m-tel{background:var(--ink);color:#fff}
+  .mbar .m-form{background:var(--amber);color:#1B1B1B}
+}
+</style>
+</head>
+<body>
+
+<header class="hd">
+  <div class="wrap">
+    <a class="logo" href="#top" aria-label="고덕 지식공작소 처음으로">
+      <span class="logo-mark" aria-hidden="true">
+        <svg width="18" height="18" viewBox="0 0 18 18"><rect x="1" y="3" width="6" height="14" fill="#1C9C86"/><rect x="10" y="1" width="7" height="16" fill="#fff"/></svg>
+      </span>
+      <span>고덕 지식공작소<small>I-TOWER · W-TOWER</small></span>
+    </a>
+    <nav class="nav" aria-label="주요 메뉴">
+      <a href="#towers">사업개요</a>
+      <a href="#floors">층별 구성</a>
+      <a href="#location">입지</a>
+      <a href="#design">특화설계</a>
+      <a href="#benefit">세제·금융</a>
+      <a href="#contact">관심고객 등록</a>
+    </nav>
+    <a class="hd-tel num" href="tel:15778664">1577-8664</a>
+  </div>
+</header>
+
+<main id="top">
+
+<section class="hero" aria-label="고덕 지식공작소 소개">
+  <div class="wrap">
+    <span class="hero-status">시행사 직영 상담 · 준공 완료</span>
+    <h1>평택 고덕신도시 내<br>지식산업센터</h1>
+    <p class="lead">삼성전자 평택캠퍼스에서 직선거리 1.2km, 고덕국제신도시 도시지원시설용지에 나란히 선 I-TOWER와 W-TOWER입니다. 시행사가 직접 운영하는 단지 내 상담 사무실에서 두 동 617실의 호실과 조건을 바로 안내합니다.</p>
+    <div class="btns">
+      <a class="btn btn-amber" href="#contact">시행사 직영 상담 신청</a>
+      <a class="btn btn-line num" href="tel:15778664">전화 1577-8664</a>
+    </div>
+    <div class="facts">
+      <div><b class="num">1.2km</b><span>삼성전자 평택캠퍼스 (직선거리)</span></div>
+      <div><b class="num">617실</b><span>I-TOWER 302 · W-TOWER 315</span></div>
+      <div><b>지상 5층</b><span>W-TOWER 드라이브인 진입 층</span></div>
+      <div><b class="num">5.6m</b><span>최대 층고</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="towers" class="bg-c">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>같은 블록, 성격이 다른 두 동</h2>
+      <p>I-TOWER는 10평대 드라이브인과 소형 섹션오피스가 중심이고, 2차 W-TOWER는 20~30평대 작업장이 필요한 제조 기업에 맞춰 호실을 넓혔습니다.</p>
+    </div>
+    <div class="towers">
+      <article class="tower">
+        <figure><img src="images/itower.jpg" alt="고덕 지식공작소 I-TOWER 조감도" width="555" height="660" loading="lazy"></figure>
+        <div class="tower-body">
+          <h3>I-TOWER</h3>
+          <p class="sub">고덕국제화계획지구 도시지원시설 17-1-1BL</p>
+          <table class="spec num">
+            <tr><th>규모</th><td>지하 1층 ~ 지상 10층 (높이 57.90m)</td></tr>
+            <tr><th>호실</th><td>302실 (지식산업센터 279 · 근린생활시설 23)</td></tr>
+            <tr><th>드라이브인</th><td>지상 4층까지 · 전용 약 9.85~27.73평</td></tr>
+            <tr><th>섹션오피스</th><td>5~10층</td></tr>
+            <tr><th>연면적</th><td>30,851.41㎡ (9,332.55평)</td></tr>
+            <tr><th>주차</th><td>180대 (법정 81대 대비 222%)</td></tr>
+            <tr><th>시공 · 신탁</th><td>트라이콘건설, NC건설 · 코람코자산신탁</td></tr>
+          </table>
+        </div>
+      </article>
+      <article class="tower">
+        <figure><img src="images/wtower.jpg" alt="고덕 지식공작소 W-TOWER 조감도" width="1100" height="933" loading="lazy"></figure>
+        <div class="tower-body">
+          <h3>W-TOWER</h3>
+          <p class="sub">고덕국제화계획지구 16-1-1BL · I-TOWER 옆 2차</p>
+          <table class="spec num">
+            <tr><th>규모</th><td>지하 1층 ~ 지상 10층 (높이 59.65m)</td></tr>
+            <tr><th>호실</th><td>315실 (지식산업센터 297 · 근린생활시설 18)</td></tr>
+            <tr><th>드라이브인</th><td>1~5층 99실 · 전용 약 16.92~38.29평</td></tr>
+            <tr><th>섹션오피스</th><td>6~10층 198실 · 전용 약 11.63~35.64평</td></tr>
+            <tr><th>연면적</th><td>45,808.73㎡ (13,857.14평)</td></tr>
+            <tr><th>주차</th><td>322대 (법정 106.97대 대비 301%)</td></tr>
+            <tr><th>시공 · 신탁</th><td>에이스건설 · 교보자산신탁</td></tr>
+          </table>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="floors" class="bg-ink">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>층을 누르면 그 층의 쓰임이 보입니다</h2>
+      <p>노란 층은 차량이 호실 앞까지 올라가는 드라이브인, 파란 층은 사무·연구 공간으로 쓰는 섹션오피스입니다.</p>
+    </div>
+    <div class="stack-area">
+      <div>
+        <div class="stacks">
+          <div class="stack">
+            <h3>I-TOWER <small>302실</small></h3>
+            <div class="floors" data-tower="I"></div>
+          </div>
+          <div class="stack">
+            <h3>W-TOWER <small>315실</small></h3>
+            <div class="floors" data-tower="W"></div>
+          </div>
+        </div>
+        <div class="legend" aria-hidden="true">
+          <span><i style="background:var(--amber)"></i>드라이브인</span>
+          <span><i style="background:var(--steel)"></i>섹션오피스</span>
+          <span><i style="background:var(--teal)"></i>근린생활시설</span>
+          <span><i style="background:#5C6E7B"></i>주차·지원</span>
+        </div>
+      </div>
+      <aside class="panel" aria-live="polite">
+        <p class="where" id="pWhere"></p>
+        <h3 id="pTitle"></h3>
+        <p id="pDesc"></p>
+        <dl id="pDl"></dl>
+        <a class="btn btn-amber" href="#contact" id="pBtn">이 층 호실 상담 신청</a>
+        <p class="note">호실별 면적과 공급 조건은 층·향·위치마다 달라 상담에서 안내합니다.</p>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section id="location">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>삼성전자 평택캠퍼스까지 직선거리 1.2km</h2>
+      <p>삼성 협력사가 납품과 출장을 오가기 가까운 거리입니다. 도시지원로 대로변이라 화물차가 고덕IC에서 내려 시내를 거치지 않고 건물로 들어옵니다.</p>
+    </div>
+    <div class="loc">
+      <figure>
+        <img src="images/map.jpg" alt="고덕 지식공작소 광역 위치도: 평택고덕IC, 평택제천고속도로, 삼성전자 평택캠퍼스, 고덕국제신도시" width="1500" height="1029" loading="lazy">
+        <figcaption>광역 위치도. 개발 계획은 국토교통부·경기주택도시공사 발표안 기준이며 변경될 수 있습니다.</figcaption>
+      </figure>
+      <ul class="points">
+        <li><b>평택고덕IC · 평택제천고속도로 인접</b><span>도시지원로 대로변. 수도권 남부와 충청권 물류 동선에 바로 연결됩니다.</span></li>
+        <li><b>삼성전자 평택캠퍼스 직선거리 1.2km</b><span>반도체 장비·부품 협력사가 캠퍼스 가까이에 작업장과 사무실을 함께 둘 수 있습니다.</span></li>
+        <li><b>바로 앞 약 5,700㎡ 근린공원</b><span>두 동이 공원을 마주 보고 있어 저층 상가와 커뮤니티 공간의 시야가 트여 있습니다.</span></li>
+        <li><b>고덕국제신도시 59,512세대 계획</b><span>계획 수용인구 약 14만 5천 명. 직원 채용과 출퇴근 배후가 함께 커집니다.</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="design" class="bg-c">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>제조와 사무를 한 건물에서</h2>
+      <p>물건을 싣고 내리는 작업장과 직원이 일하는 사무 공간이 층으로 나뉘어 있습니다. 필요하면 두 공간을 함께 쓰는 구성도 가능합니다.</p>
+    </div>
+    <div class="feat">
+      <div><h3>드라이브인 · 도어투도어</h3><p>주차장에서 램프를 따라 호실 앞까지 차량이 올라갑니다. W-TOWER는 지상 5층, I-TOWER는 지상 4층까지 연결됩니다.</p></div>
+      <img src="images/sp_drive.jpg" alt="드라이브인 램프와 호실 앞 하역 공간 이미지컷" width="1300" height="257" loading="lazy">
+    </div>
+    <div class="feat">
+      <div><h3>최대 5.6m 층고</h3><p>지게차 작업과 대형 설비 반입, 복층형 선반 설치를 고려한 높이입니다.</p></div>
+      <img src="images/sp_height.jpg" alt="5.6m 층고 단면과 작업장 내부 이미지컷" width="1300" height="259" loading="lazy">
+    </div>
+    <div class="feat">
+      <div><h3>붙여 쓰는 섹션오피스</h3><p>기본 1실은 1~5인, 2실을 터서 5~10인, 3실 이상은 10인 이상 팀이 씁니다. 회사가 커지면 옆 호실로 넓힐 수 있습니다.</p></div>
+      <img src="images/sp_section.jpg" alt="섹션오피스 1실·2실·3실 사용 예시" width="1300" height="327" loading="lazy">
+    </div>
+    <div class="feat">
+      <div><h3>공원과 이어진 커뮤니티</h3><p>공용 휴게 공간과 옥상·테라스 정원, 전 호실 개별 냉난방기로 장시간 근무 환경을 챙겼습니다.</p></div>
+      <img src="images/sp_community.jpg" alt="로비, 커뮤니티 라운지, 공원 이미지컷" width="1300" height="261" loading="lazy">
+    </div>
+    <p class="fine">이미지는 이해를 돕기 위한 CG·이미지컷으로 실제와 다를 수 있습니다.</p>
+  </div>
+</section>
+
+<section id="benefit">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>직접 사용하는 기업이 받는 세제·금융 혜택</h2>
+      <p>지식산업센터는 입주기업이 사업용으로 직접 쓸 때 지방세와 법인세 감면 대상이 될 수 있습니다. 회사 상황에 따라 적용 여부가 달라 상담에서 함께 확인합니다.</p>
+    </div>
+    <div class="tax">
+      <div><b>취득세 경감</b><span>사업시설로 직접 사용하는 부동산의 취득세 감면 (분양 교육자료 기준 50%, 지방세특례제한법 제58조의2)</span></div>
+      <div><b>재산세 경감</b><span>직접 사용 부동산의 재산세 감면 (분양 교육자료 기준 37.5%, 같은 조항)</span></div>
+      <div><b>법인세 감면</b><span>수도권 과밀억제권역에서 평택으로 이전하는 경우 조세특례제한법 제63조 감면 검토</span></div>
+      <div><b>담보대출</b><span>개인·법인의 신용도와 대출 이력에 따라 금융기관 담보대출 한도와 조건이 정해집니다.</span></div>
+    </div>
+    <p class="fine">감면율과 적용기한, 직접 사용 의무 기간·매각 시 추징 요건은 취득 시점의 법령을 따릅니다. 계약 전 세무 전문가 확인을 권해 드립니다.</p>
+  </div>
+</section>
+
+<section class="bg-ink" aria-label="분양 조건 안내 방식">
+  <div class="wrap price">
+    <div>
+      <h2>분양가를 홈페이지에 적지 않는 이유</h2>
+      <p>같은 동 안에서도 층과 향, 하역 동선에 따라 조건이 다르고, 먼저 계약하신 분들과의 형평도 지켜야 합니다.</p>
+      <p>그래서 숫자 하나를 걸어 두는 대신, 문의하신 기업의 업종과 면적에 맞는 호실을 골라 실제 부담액으로 비교해 드립니다.</p>
+      <div class="btns" style="margin-top:24px">
+        <a class="btn btn-amber" href="#contact">호실별 조건 받아보기</a>
+      </div>
+    </div>
+    <ul class="checks">
+      <li>시행사 직영 상담이라 중간 단계 없이 현재 공급 가능한 호실과 조건을 바로 확인합니다.</li>
+      <li>자료의 면적·주차·층고 수치를 건축물대장과 현장에서 다시 점검합니다.</li>
+      <li>취득세·대출 이자·관리비까지 더한 실제 부담액으로 호실을 비교합니다.</li>
+      <li>입주 가능 업종을 계약 전에 확인해 사업자 등록까지 막힘이 없게 합니다.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="process" class="bg-c">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>상담부터 입주까지</h2>
+      <p>두 동 모두 준공되어 계약 후 바로 입주 일정을 잡을 수 있습니다.</p>
+    </div>
+    <ol class="steps">
+      <li><b>조건 상담</b><span>업종, 필요 면적, 차량 크기, 입주 시기를 알려 주세요.</span></li>
+      <li><b>현장 방문</b><span>단지 안 시행사 직영 상담 사무실에서 후보 호실을 직접 보여 드립니다.</span></li>
+      <li><b>업종 · 세제 확인</b><span>입주 가능 업종과 감면 요건을 계약 전에 점검합니다.</span></li>
+      <li><b>계약 · 입주</b><span>계약 후 입주신고와 사업자 등록 절차를 안내합니다.</span></li>
+    </ol>
+    <p class="fine">공장 용도는 도시형공장 요건(산업집적법 시행령 제36조의4)을 충족해야 합니다. 2026년 9월 10일 발표된 지식산업센터 대책에 따라 입주 업종 기준이 바뀔 수 있어, 계약 시점의 기준으로 확인해 드립니다.</p>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap form-area">
+    <div>
+      <div class="sec-head" style="margin-bottom:0">
+        <h2>관심고객 등록</h2>
+        <p>남겨 주신 조건으로 두 동의 호실을 추려 시행사 직영 상담 담당자가 연락드립니다.</p>
+      </div>
+      <div class="office">
+        <b>시행사 직영 상담 사무실 · 고덕 지식공작소 107호</b>
+        경기도 평택시 고덕면 도시지원1길 49<br>
+        시행사가 단지 안에서 직접 운영하며 방문 시 호실을 바로 보여 드립니다.<br>
+        <a class="tel num" href="tel:15778664">1577-8664</a>
+      </div>
+    </div>
+    <form id="consultForm" novalidate>
+      <div class="fg">
+        <div><label for="name">성함 *</label><input class="inp" id="name" name="name" required autocomplete="name" placeholder="홍길동"></div>
+        <div><label for="phone">연락처 *</label><input class="inp" id="phone" name="phone" type="tel" required autocomplete="tel" inputmode="tel" placeholder="010-1234-5678"></div>
+        <div class="full"><label for="company">업체명 · 업종</label><input class="inp" id="company" name="company" placeholder="예: OO정밀 / 반도체 부품 가공"></div>
+        <div><label for="type">관심 공간</label>
+          <select class="inp" id="type" name="type">
+            <option>드라이브인 작업장</option>
+            <option>섹션오피스</option>
+            <option>근린생활시설</option>
+            <option>아직 정하지 않음</option>
+          </select>
+        </div>
+        <div><label for="size">필요 면적 (전용)</label>
+          <select class="inp" id="size" name="size">
+            <option>10평대</option>
+            <option>20평대</option>
+            <option>30평 이상</option>
+            <option>여러 호실 연결</option>
+            <option>상담 후 결정</option>
+          </select>
+        </div>
+        <div class="full"><label for="tower">관심 동</label>
+          <select class="inp" id="tower" name="tower">
+            <option>두 동 모두 비교</option>
+            <option>I-TOWER</option>
+            <option>W-TOWER</option>
+          </select>
+        </div>
+        <div class="full agree">
+          <label class="chk"><input type="checkbox" id="chk" required> [필수] 개인정보 수집 및 이용에 동의합니다.</label>
+          <details>
+            <summary>수집 항목과 보유 기간 보기</summary>
+            1. 수집 항목: 성함, 연락처, 업체명·업종, 관심 공간·면적<br>
+            2. 이용 목적: 고덕 지식공작소 호실 상담, 현장 방문 예약 안내<br>
+            3. 보유 기간: 상담 목적 달성 시 즉시 파기<br>
+            4. 동의를 거부할 수 있으며, 거부 시 상담 접수가 제한됩니다.
+          </details>
+        </div>
+        <div class="full">
+          <button type="submit" id="submitBtn" class="btn btn-amber">상담 신청하기</button>
+          <div id="resultMsg" role="status"></div>
+        </div>
+      </div>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<footer class="ft">
+  <div class="wrap">
+    <p><b>고덕 지식공작소 I-TOWER · W-TOWER</b> 시행사 직영 상담</p>
+    <p>상담 사무실 경기도 평택시 고덕면 도시지원1길 49, 고덕 지식공작소 107호 · 대표번호 1577-8664</p>
+    <p>지식공작소 · 사업자등록번호 776-18-01737 · 경기도 평택시 고덕면 도시지원1길 16, 516</p>
+    <p class="disc">이 사이트의 CG와 이미지는 이해를 돕기 위한 것으로 실제와 다를 수 있습니다. 면적·주차 등 수치는 분양 자료와 건축물대장 기준이며, 인·허가 및 관련 법령에 따라 달라질 수 있습니다. 세제·금융 내용은 참고용이며 개별 조건에 따라 적용이 달라집니다.<br>© 2026 지식공작소</p>
+  </div>
+</footer>
+
+<div class="float" aria-label="빠른 상담">
+  <a class="f-tel" href="tel:15778664">전화<br>상담</a>
+  <a class="f-form" href="#contact">상담<br>신청</a>
+</div>
+<nav class="mbar" aria-label="빠른 상담">
+  <a class="m-tel num" href="tel:15778664">전화 1577-8664</a>
+  <a class="m-form" href="#contact">상담 신청</a>
+</nav>
+
+<script>
+/* 층별 데이터: 분양 교육자료·기존 현장 페이지 기준 */
+const FLOORS = {
+  I: [
+    {lv:'10F',k:'office',t:'섹션오피스',d:'5~10층은 사무·연구용 섹션오피스입니다. 1실을 단독으로 쓰거나 옆 호실과 붙여 팀 규모에 맞춥니다.',dl:[['용도','지식산업센터(섹션오피스)'],['층','5~10층'],['맞는 기업','설계·연구, IT, 영업·관리 거점']],span:6},
+    {lv:'4F',k:'drive',t:'드라이브인 작업장',d:'지상 4층까지 차량이 호실 앞으로 진입합니다. 10평대 작업장이 많아 소규모 제조·물류 거점에 맞습니다.',dl:[['용도','지식산업센터(드라이브인)'],['층','2~4층'],['전용','약 9.85~27.73평'],['층고','최대 5.6m']],span:3},
+    {lv:'1F',k:'retail',t:'근린생활시설 · 커뮤니티',d:'공원을 마주한 스트리트형 상가 23실과 공용 커뮤니티센터가 있습니다. 차량 출입구는 도시지원로 쪽입니다.',dl:[['용도','근린생활시설 23실'],['공용','커뮤니티센터']],span:1},
+    {lv:'B1',k:'park',t:'주차장',d:'주차 180대(법정 대비 222%). 드라이브인 램프가 주차장에서 시작됩니다.',dl:[['주차','180대']],span:1}
+  ],
+  W: [
+    {lv:'10F',k:'office',t:'섹션오피스 7~10층',d:'H자형 평면으로 가운데 복도를 따라 12평 안팎 소형 호실이, 날개 쪽에 20~30평대 호실이 놓였습니다.',dl:[['호실','층당 42실 (4개 층 168실)'],['전용','약 11.63~35.64평'],['맞는 기업','연구소, 설계·IT, 사무 본사']],span:4},
+    {lv:'6F',k:'office',t:'섹션오피스 6층 · 커뮤니티',d:'섹션오피스 30실과 함께 커뮤니티 공간과 야외 휴게 공간이 있는 층입니다.',dl:[['호실','30실'],['공용','커뮤니티 · 야외 휴게']],span:1},
+    {lv:'5F',k:'drive',t:'드라이브인 작업장 2~5층',d:'층마다 가운데 주차 구역(약 45면)과 하역·휴게 공간을 두고 둘레에 작업장을 배치했습니다. 20~30평대 호실이 많습니다.',dl:[['호실','층당 23실 (4개 층 92실)'],['전용','약 16.92~38.29평'],['층고','최대 5.6m']],span:4},
+    {lv:'1F',k:'retail',t:'근린생활시설 · 드라이브인',d:'근린생활시설 18실과 드라이브인 작업장 7실이 함께 있는 층입니다.',dl:[['근린생활시설','18실'],['드라이브인','7실']],span:1},
+    {lv:'B1',k:'park',t:'주차장',d:'주차 322대(법정 106.97대 대비 301%). 지하 1층부터 지상 5층까지 주차 구역이 이어집니다.',dl:[['주차','322대']],span:1}
+  ]
+};
+const LABEL = {office:'섹션오피스',drive:'드라이브인',retail:'근린생활시설',park:'주차'};
+const panel = {w:document.getElementById('pWhere'),t:document.getElementById('pTitle'),d:document.getElementById('pDesc'),dl:document.getElementById('pDl')};
+let current = null;
+
+function floorLabels(tower, f, i, list){
+  // 여러 층을 묶은 행은 범위로 표시
+  const n = parseInt(f.lv); if (isNaN(n) || f.span === 1) return f.lv;
+  return (n - f.span + 1) + '~' + f.lv;
+}
+function show(tower, f, btn){
+  if (current) current.setAttribute('aria-pressed','false');
+  btn.setAttribute('aria-pressed','true'); current = btn;
+  panel.w.textContent = tower + '-TOWER · ' + btn.dataset.range;
+  panel.t.textContent = f.t;
+  panel.d.textContent = f.d;
+  panel.dl.innerHTML = f.dl.map(r => '<dt>'+r[0]+'</dt><dd>'+r[1]+'</dd>').join('');
+  const sel = document.getElementById('type');
+  const tw = document.getElementById('tower');
+  document.getElementById('pBtn').onclick = () => {
+    tw.value = tower + '-TOWER';
+    sel.value = f.k === 'office' ? '섹션오피스' : f.k === 'drive' ? '드라이브인 작업장' : f.k === 'retail' ? '근린생활시설' : '아직 정하지 않음';
+  };
+}
+document.querySelectorAll('.floors').forEach(box => {
+  const tower = box.dataset.tower;
+  FLOORS[tower].forEach((f, i, list) => {
+    const range = floorLabels(tower, f, i, list);
+    const b = document.createElement('button');
+    b.type = 'button'; b.className = 'fl t-' + f.k; b.setAttribute('aria-pressed','false');
+    b.dataset.range = range;
+    b.innerHTML = '<span class="lv">'+range+'</span><span class="bar" style="height:'+(f.span*30+(f.span-1)*4)+'px">'+f.t.split(' ')[0]+(f.k==='drive'?' · 차량 진입':'')+'</span>';
+    b.setAttribute('aria-label', tower+'-TOWER '+range+' '+f.t);
+    b.addEventListener('click', () => show(tower, f, b));
+    box.appendChild(b);
+    if (tower === 'W' && i === 2) show(tower, f, b);
+  });
+});
+
+/* 상담 접수: 구글 시트 웹 앱 (예미지 현장과 같은 시트, 유형 앞에 현장명 표기) */
+document.getElementById('consultForm').addEventListener('submit', function(e){
+  e.preventDefault();
+  const name = document.getElementById('name').value.trim();
+  const phone = document.getElementById('phone').value.trim();
+  const msg = document.getElementById('resultMsg');
+  const btn = document.getElementById('submitBtn');
+  if (!name || !phone){ msg.style.color='#B42318'; msg.textContent='성함과 연락처를 입력해 주세요.'; return; }
+  if (!/^[0-9\-\s]{9,14}$/.test(phone)){ msg.style.color='#B42318'; msg.textContent='연락처는 숫자와 하이픈으로 입력해 주세요. 예: 010-1234-5678'; return; }
+  if (!document.getElementById('chk').checked){ msg.style.color='#B42318'; msg.textContent='개인정보 수집 및 이용에 동의해 주세요.'; return; }
+
+  const summary = '[지식공작소] ' + document.getElementById('tower').value + ' / ' +
+    document.getElementById('type').value + ' / ' + document.getElementById('size').value +
+    (document.getElementById('company').value.trim() ? ' / ' + document.getElementById('company').value.trim() : '');
+  const fd = new FormData();
+  fd.append('name', name); fd.append('phone', phone); fd.append('type', summary);
+
+  btn.disabled = true; msg.style.color = 'var(--muted)'; msg.textContent = '접수하고 있습니다.';
+  const done = () => { btn.disabled = false; msg.style.color = '#1C7C5E'; msg.textContent = '상담 신청이 접수되었습니다. 담당자가 곧 연락드립니다.'; e.target.reset(); };
+  // 구글 웹 앱은 리다이렉트 응답 때문에 브라우저에서 오류로 보일 수 있으나 시트에는 기록됩니다 (기존 현장과 동일 방식).
+  fetch('https://script.google.com/macros/s/AKfycbwyGfeSdsjpgUTyvtxLqibd3U9w8ye0EVGihK13iwdNl4xoDLSmYR_K4_GfhDvzqLY40A/exec', {method:'POST', body:fd})
+    .then(done).catch(done);
+});
+</script>
+</body>
+</html>
